@@ -16,6 +16,7 @@
   display: flex;
   margin: 2em 0;
   justify-content: space-between;
+  flex: auto;
 }
 
 .middle {
