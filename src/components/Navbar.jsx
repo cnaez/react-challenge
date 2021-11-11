@@ -6,14 +6,18 @@ const Navbar = (props) => {
   return (
   <div className='navStyle'>
     <RightOutlined />
-
+  
     <div className='navTitle'>
       {props.title}
     </div>
     <div>
-      <HeartOutlined />
+     <span className= 'navHeart'>
+       <HeartOutlined />
+     </span>
+      <span className= 'navClock'>
       <ClockCircleOutlined />
-    </div>
+    </span>
+  </div>
   </div>
   )
 }

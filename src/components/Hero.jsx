@@ -13,12 +13,14 @@ const Hero = (props) => {
       <div className="heroText">
         <div>
           <div className="heroTitle">{props.title}</div>
-          <div>{props.lastSeen}</div>
+          <div className="lastSeen">{props.lastSeen}</div>
         </div>
 
         <a href="#">
           <SketchOutlined />
-          کارنامه
+          <span className='karnameh'>
+            کارنامه
+          </span>
           <ArrowLeftOutlined />
         </a>
       </div>

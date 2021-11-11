@@ -17,7 +17,7 @@ const Recommends = (props) => {
             </div>
           </div>
           <div className='middle'>
-          {props.price}ریال
+          {props.price} ریال
           </div>
         </div>
     </div>
