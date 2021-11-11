@@ -1,0 +1,13 @@
+.footerStyle {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footerText {
+  display: flex;
+  color: #8E90A6;
+}

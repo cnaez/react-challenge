@@ -1,0 +1,25 @@
+.more {
+  background-color: #ffffff;
+  display: grid;
+  border: #EBEBF0 1px solid;
+  border-radius: 25px;
+  margin: 2em 0;
+  grid-template-columns: 50% 50%;
+}
+
+.more__req {
+  background-color: #0C99AC;
+  border-radius: 25px;
+}
+
+.more__pro {
+  text-align: center;
+  align-self: center;
+  color: #8E90A6;
+
+}
+
+.more__reqCenter {
+  margin: 33px 0;
+  color: #ffffff;
+}

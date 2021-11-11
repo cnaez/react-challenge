@@ -1,0 +1,50 @@
+.container {
+  overflow: hidden;
+}
+
+.heroPic {
+  position: relative;
+  width: -webkit-fill-available;
+  margin-top: 5rem;
+  display: block;
+  object-fit: cover;
+  min-height: 400px;
+}
+
+.heroText {
+  display: flex;
+  margin: 2em 0;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+  width: -webkit-fill-available;
+}
+
+.lable {
+  background-color: #D02659;
+  color: #ffffff;
+  padding: 8px 22px;
+  border-radius: 12px;
+  position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate( -50%, -50% );
+}
+
+.lable2 {
+  background-color: #FAFAFC;
+  color: #D99E2D;
+  padding: 8px 18px;
+  border-radius: 12px 0px 0px 12px;
+  position: absolute;
+    top: 30%;
+    right: -10%;
+    transform: translate( -50%, -50% );
+}
+
+.heroTitle {
+  font-weight: bold;
+}

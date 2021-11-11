@@ -1,0 +1,24 @@
+.recommend {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  margin: 1em 0;
+}
+
+.avatar {
+  width: 70px;
+  height: 75px;
+  align-self: center;
+  margin: 1em;
+}
+
+.cardText {
+  display: flex;
+  margin: 2em 0;
+  justify-content: space-between;
+}
+
+.middle {
+  align-self: center;
+  font-weight: bold;
+}
